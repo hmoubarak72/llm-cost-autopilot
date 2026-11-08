@@ -1,0 +1,42 @@
+{
+  "requests": 1000,
+  "routed_cost_usd": 0.824412,
+  "verification_cost_usd": 0.17487,
+  "total_spend_usd": 0.999282,
+  "baseline_cost_usd": 1.906305,
+  "gross_saved_usd": 1.081893,
+  "net_saved_usd": 0.907023,
+  "gross_cost_reduction_pct": 56.75,
+  "net_cost_reduction_pct": 47.58,
+  "verified_requests": 78,
+  "quality_parity_pct": 92.31,
+  "escalations": 6,
+  "escalation_rate_of_verified_pct": 7.69,
+  "verification_backlog": 0,
+  "avg_latency_ms": 2219.9,
+  "routing_distribution": [
+    {
+      "model": "llama-local",
+      "requests": 550,
+      "share_pct": 55.0,
+      "cost_usd": 0
+    },
+    {
+      "model": "gpt-4o-mini",
+      "requests": 285,
+      "share_pct": 28.5,
+      "cost_usd": 0.0352
+    },
+    {
+      "model": "gpt-4o",
+      "requests": 165,
+      "share_pct": 16.5,
+      "cost_usd": 0.789212
+    }
+  ],
+  "tier_distribution": {
+    "1": 550,
+    "2": 285,
+    "3": 165
+  }
+}

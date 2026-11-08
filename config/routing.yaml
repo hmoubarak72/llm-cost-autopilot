@@ -1,0 +1,43 @@
+# Tier -> model routing map. Edit this file (or PUT /v1/routing-config) to
+# swap models without code changes. Model names refer to keys in models.yaml.
+tiers:
+  1: llama-local      # simple: reformatting, extraction, Q&A over provided context
+  2: gpt-4o-mini      # moderate: summarization, classification, structured analysis
+  3: gpt-4o           # complex: multi-step reasoning, creative, nuanced judgment
+
+# Fallback when a model's provider is unreachable (e.g. Ollama not running).
+fallback:
+  llama-local: claude-haiku
+  claude-haiku: gpt-4o-mini
+  gpt-4o-mini: claude-haiku
+  claude-sonnet: gpt-4o
+  gpt-4o: claude-sonnet
+
+# If the classifier is less sure than this, route one tier up. Cheap insurance
+# against the most expensive mistake (sending a hard prompt to a weak model).
+min_confidence: 0.55
+
+verification:
+  reference_model: gpt-4o     # the "what would the best model have said" oracle
+  judge_model: gpt-4o         # LLM-as-judge for summarization / open-ended tasks
+  # Fraction of eligible requests to verify. Verification costs a reference
+  # call plus (sometimes) a judge call, so 100% verification erases most of the
+  # savings. Net savings on the dashboard subtract this overhead. The report's
+  # "What verification costs" table shows the tradeoff for your traffic; in the
+  # simulated 800-request run, 10% kept ~45% net savings and 25% kept ~29%.
+  sample_rate: 0.10
+  # Per-task "good enough" thresholds.
+  thresholds:
+    extraction: {min_field_recall: 0.8}
+    classification: {must_match: true}
+    summarization: {min_judge_score: 4}
+    general: {min_judge_score: 4}
+  # Sync escalation: when a request opts in (routing.verify = "sync") and the
+  # reference model's expected latency fits in the request's latency budget,
+  # verify inline and return the better answer.
+  default_latency_budget_ms: 8000
+
+feedback:
+  retrain_interval_days: 7
+  min_new_examples: 5         # don't retrain on one or two failures
+  max_cv_drop: 0.05           # reject a retrain whose 5-fold CV accuracy drops more than this

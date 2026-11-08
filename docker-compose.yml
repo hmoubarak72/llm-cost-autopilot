@@ -1,0 +1,45 @@
+# docker compose up --build             -> api :8000, worker, dashboard :8501 (mock mode by default)
+# AUTOPILOT_MOCK=0 docker compose up    -> real providers (needs keys in .env)
+# docker compose --profile local up     -> also start Ollama for the llama-local tier
+x-common: &common
+  build: .
+  env_file: [{path: .env, required: false}]
+  environment:
+    AUTOPILOT_MOCK: ${AUTOPILOT_MOCK:-1}
+    OLLAMA_URL: ${OLLAMA_URL:-http://ollama:11434}
+  volumes:
+    - autopilot-state:/var/autopilot      # SQLite db, logs, classifier (shared)
+    - ./config:/app/config                # routing.yaml edits survive restarts
+
+services:
+  api:
+    <<: *common
+    command: serve
+    ports: ["8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      retries: 5
+
+  worker:
+    <<: *common
+    command: worker
+    depends_on:
+      api: {condition: service_healthy}   # api trains the classifier on first boot
+
+  dashboard:
+    <<: *common
+    command: dashboard
+    ports: ["8501:8501"]
+    depends_on: [api]
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: [local]
+    ports: ["11434:11434"]
+    volumes: [ollama-models:/root/.ollama]
+    # first run: docker compose exec ollama ollama pull llama3.1:8b
+
+volumes:
+  autopilot-state:
+  ollama-models:

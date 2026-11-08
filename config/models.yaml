@@ -1,0 +1,52 @@
+# Model registry. Prices are USD per 1M tokens (list price, standard tier).
+# Verified 2026-11-07 against the providers' public pricing. Prices change:
+# check https://openai.com/api/pricing and https://platform.claude.com/docs/en/about-claude/pricing
+# before quoting savings numbers.
+#
+# avg_latency_ms is a starting estimate; scripts/baseline_providers.py measures
+# real values and prints a block you can paste back here.
+
+models:
+  gpt-4o:
+    provider: openai
+    model_id: gpt-4o
+    input_cost_per_mtok: 2.50
+    output_cost_per_mtok: 10.00
+    avg_latency_ms: 2200
+    quality_tier: high
+
+  gpt-4o-mini:
+    provider: openai
+    model_id: gpt-4o-mini
+    input_cost_per_mtok: 0.15
+    output_cost_per_mtok: 0.60
+    avg_latency_ms: 1400
+    quality_tier: medium
+
+  claude-sonnet:
+    provider: anthropic
+    model_id: claude-sonnet-4-5
+    input_cost_per_mtok: 3.00
+    output_cost_per_mtok: 15.00
+    avg_latency_ms: 2600
+    quality_tier: high
+
+  claude-haiku:
+    provider: anthropic
+    model_id: claude-haiku-4-5
+    input_cost_per_mtok: 1.00
+    output_cost_per_mtok: 5.00
+    avg_latency_ms: 1100
+    quality_tier: medium
+
+  llama-local:
+    provider: ollama
+    model_id: llama3.1:8b
+    input_cost_per_mtok: 0.0     # runs on your hardware; electricity not modeled
+    output_cost_per_mtok: 0.0
+    avg_latency_ms: 3000          # CPU-only estimate; much lower on a GPU
+    quality_tier: low
+
+# The model every request would have gone to without the router.
+# "Savings" are always measured against this model.
+baseline_model: gpt-4o

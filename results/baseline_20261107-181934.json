@@ -1,0 +1,516 @@
+{
+  "prompts": [
+    "Convert this list to a JSON array: red, green, blue.",
+    "Extract the email address from: 'Questions? Write to support@example.org any time.'",
+    "What is 15% of 240?",
+    "Summarize the main differences between TCP and UDP in a short table.",
+    "Classify the sentiment of this review as positive, negative or mixed: 'Battery life is excellent but the keyboard broke after three weeks.'",
+    "Explain what a confusion matrix shows, with a 2x2 example.",
+    "A train leaves at 3pm going 80 km/h; another leaves the same station at 4pm going 100 km/h on the same track. When does the second catch up? Show your reasoning.",
+    "Write a four-line poem about a desert at night.",
+    "Our API p99 latency jumped from 300ms to 4s after a deploy that only changed logging. List the three most likely causes and how to test each.",
+    "Is it better for a 6-engineer team to adopt microservices or a modular monolith? Recommend one."
+  ],
+  "rows": [
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 0,
+      "ok": true,
+      "input_tokens": 13,
+      "output_tokens": 112,
+      "latency_ms": 2137.2,
+      "cost_usd": 0.0011525,
+      "output": "Evidence user customer assumption result schedule result team risk model impact quality result notably option impact policy priority signal risk model priority priority evidence market evidence schedule trend policy option contract data region contract team revenue market tradeoff report result user system plan policy customer region growth input region evidence reservoir the customer incident service team evidence system forecast contract user."
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 1,
+      "ok": true,
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 1219.1,
+      "cost_usd": 0.00029,
+      "output": "{\"field_0\": \"value_938\", \"field_1\": \"value_967\", \"field_2\": \"value_483\", \"field_3\": \"value_740\"}"
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 2,
+      "ok": true,
+      "input_tokens": 4,
+      "output_tokens": 78,
+      "latency_ms": 1881.5,
+      "cost_usd": 0.00079,
+      "output": "Incident customer incident latency incident plan contract result evidence team market budget market policy report region cost signal team plan service customer contract impact notably signal input output quality trend incident impact incident input risk customer impact risk service policy report reservoir team."
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 3,
+      "ok": true,
+      "input_tokens": 17,
+      "output_tokens": 246,
+      "latency_ms": 2993.7,
+      "cost_usd": 0.0025025,
+      "output": "Forecast customer budget the model quality incident cost output pipeline data pressure trend customer margin market quality margin schedule signal input system cost output system result data the model output signal result trend evidence schedule cost trend result growth tradeoff pressure market system cost pipeline reservoir input margin assumption pressure report quality margin data model growth contract budget data pipeline signal customer customer service incident cost region priority risk forecast pipeline latency policy revenue contract option priority pipeline schedule service data contract signal evidence pipeline service option contract quality the schedule system notably forecast schedule contract user team tradeoff pipeline plan result option output service forecast reservoir option market latency evidence pipeline incident option system schedule schedule evidence reservoir risk growth quality plan input service service market assumption user tradeoff tradeoff."
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 4,
+      "ok": true,
+      "input_tokens": 34,
+      "output_tokens": 2,
+      "latency_ms": 1305.2,
+      "cost_usd": 0.000105,
+      "output": "positive"
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 5,
+      "ok": true,
+      "input_tokens": 14,
+      "output_tokens": 208,
+      "latency_ms": 2747.8,
+      "cost_usd": 0.002115,
+      "output": "Data service margin the revenue market data model market tradeoff region the trend model report risk contract tradeoff cost customer input tradeoff plan latency budget incident system pressure data reservoir latency quality incident policy schedule signal signal pipeline contract plan schedule pipeline signal contract latency system impact risk service pressure contract priority impact policy impact latency plan model revenue revenue the impact policy team evidence team pressure the user service forecast model schedule assumption tradeoff forecast pipeline policy market notably team market tradeoff market customer quality the impact trend service data incident market system output customer evidence revenue data signal user priority result signal plan pressure budget priority evidence evidence reservoir pressure the system."
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 6,
+      "ok": true,
+      "input_tokens": 40,
+      "output_tokens": 83,
+      "latency_ms": 1436.9,
+      "cost_usd": 0.00093,
+      "output": "Region region market schedule cost budget reservoir input contract pipeline impact tradeoff tradeoff incident model option system reservoir quality input incident tradeoff signal contract notably contract team data forecast quality schedule signal assumption reservoir report incident input quality trend system trend report margin."
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 7,
+      "ok": true,
+      "input_tokens": 11,
+      "output_tokens": 243,
+      "latency_ms": 1866.9,
+      "cost_usd": 0.0024575,
+      "output": "Growth customer evidence customer revenue risk policy budget the impact evidence trend forecast schedule contract growth priority pressure option output region pressure tradeoff model signal signal report the the output revenue priority margin output team plan user contract cost margin incident reservoir pipeline cost input margin customer growth contract service input region model option priority the reservoir signal market risk report model revenue reservoir reservoir market latency system latency pressure plan service policy option market input plan latency latency tradeoff pressure model cost region customer system trend schedule reservoir risk data user data evidence policy tradeoff cost team notably data pipeline latency budget assumption pipeline system data margin pressure budget service policy forecast latency region budget team assumption quality plan market service budget latency forecast the quality trend priority schedule revenue incident region."
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 8,
+      "ok": true,
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 1073.4,
+      "cost_usd": 0.0003875,
+      "output": "{\"field_0\": \"value_935\", \"field_1\": \"value_966\", \"field_2\": \"value_483\", \"field_3\": \"value_241\", \"field_4\": \"value_120\"}"
+    },
+    {
+      "model": "gpt-4o",
+      "prompt_idx": 9,
+      "ok": true,
+      "input_tokens": 23,
+      "output_tokens": 253,
+      "latency_ms": 3145.9,
+      "cost_usd": 0.0025875,
+      "output": "System system tradeoff incident market option impact team assumption pipeline reservoir pipeline assumption evidence contract output growth priority plan option schedule pressure evidence incident forecast cost forecast tradeoff trend trend tradeoff latency tradeoff quality policy input cost region cost policy budget contract priority impact option contract tradeoff schedule system quality margin schedule revenue input risk market pipeline the budget input pressure the trend policy pipeline forecast pressure growth evidence team data cost margin tradeoff risk risk pipeline service service incident forecast reservoir impact user impact growth result customer region cost trend team pressure notably signal result market contract reservoir assumption pressure trend data market option revenue signal assumption impact policy revenue margin schedule risk policy result impact result policy quality contract report priority forecast pressure option evidence impact margin pipeline assumption option risk signal."
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 0,
+      "ok": true,
+      "input_tokens": 13,
+      "output_tokens": 112,
+      "latency_ms": 1497.6,
+      "cost_usd": 6.915e-05,
+      "output": "Evidence user customer assumption result schedule result team risk model impact quality result schedule option impact policy priority signal risk model priority priority evidence market evidence schedule trend policy option contract data region contract team revenue market tradeoff report result user system plan policy customer region growth input region evidence notably the customer incident service team evidence system forecast contract user."
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 1,
+      "ok": true,
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 760.8,
+      "cost_usd": 1.74e-05,
+      "output": "{\"field_0\": \"value_938\", \"field_1\": \"value_967\", \"field_2\": \"value_483\", \"field_3\": \"value_740\"}"
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 2,
+      "ok": true,
+      "input_tokens": 4,
+      "output_tokens": 78,
+      "latency_ms": 1063.2,
+      "cost_usd": 4.74e-05,
+      "output": "Incident customer incident latency incident plan contract result evidence team market budget market policy report region cost signal team plan service customer contract impact contract signal input output quality trend incident impact notably input risk customer impact risk service policy report reservoir team."
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 3,
+      "ok": true,
+      "input_tokens": 17,
+      "output_tokens": 245,
+      "latency_ms": 1910.2,
+      "cost_usd": 0.00014955,
+      "output": "Forecast customer budget the model quality incident cost output pipeline data pressure trend customer margin market quality margin schedule signal input system cost output system result data the model output signal result trend evidence schedule cost trend result growth tradeoff pressure market system cost pipeline reservoir input margin assumption pressure report quality margin data model growth contract budget data pipeline signal customer customer service incident cost region priority risk forecast pipeline latency policy revenue contract option priority pipeline schedule service data contract signal evidence pipeline service option contract quality the schedule system quality forecast schedule contract user team tradeoff pipeline plan result option output service forecast reservoir option market latency evidence pipeline incident option system schedule schedule evidence reservoir risk growth quality plan input service service market assumption user tradeoff notably"
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 4,
+      "ok": true,
+      "input_tokens": 34,
+      "output_tokens": 2,
+      "latency_ms": 1009.9,
+      "cost_usd": 6.3e-06,
+      "output": "positive"
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 5,
+      "ok": true,
+      "input_tokens": 14,
+      "output_tokens": 208,
+      "latency_ms": 1111.7,
+      "cost_usd": 0.0001269,
+      "output": "Data service margin the revenue market data model market tradeoff region the trend model report risk contract tradeoff cost customer input tradeoff plan latency budget incident system pressure data reservoir latency quality incident policy schedule signal signal pipeline contract plan schedule pipeline signal contract latency system impact risk service pressure contract priority impact policy impact latency plan model revenue revenue the impact policy team evidence team pressure the user service forecast model schedule assumption tradeoff forecast pipeline policy market latency team market tradeoff market customer quality the impact trend service data incident market system output customer evidence revenue data signal user notably result signal plan pressure budget priority evidence evidence reservoir pressure the system."
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 6,
+      "ok": true,
+      "input_tokens": 40,
+      "output_tokens": 81,
+      "latency_ms": 989.3,
+      "cost_usd": 5.46e-05,
+      "output": "Region region market schedule cost budget reservoir input contract pipeline impact tradeoff tradeoff incident model option system reservoir quality input incident tradeoff signal contract input contract team data forecast quality schedule signal notably reservoir report incident input quality trend system trend report margin."
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 7,
+      "ok": true,
+      "input_tokens": 11,
+      "output_tokens": 244,
+      "latency_ms": 1884.6,
+      "cost_usd": 0.00014805000000000002,
+      "output": "Growth customer evidence customer revenue risk policy budget the impact evidence trend forecast schedule contract growth priority pressure option output region pressure tradeoff model signal signal report the the output revenue priority margin output team plan user contract cost margin incident reservoir pipeline cost input margin customer growth contract service input region model option priority the reservoir signal market risk report model revenue reservoir reservoir market latency system latency pressure plan service policy option market input plan latency latency tradeoff pressure model notably region customer system trend schedule reservoir risk data user data evidence policy tradeoff cost team revenue data pipeline latency budget assumption pipeline system data margin pressure budget service policy forecast latency region budget team assumption quality plan market service budget latency forecast the quality trend priority schedule revenue incident region."
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 8,
+      "ok": true,
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 1053.5,
+      "cost_usd": 2.325e-05,
+      "output": "{\"field_0\": \"value_935\", \"field_1\": \"value_966\", \"field_2\": \"value_483\", \"field_3\": \"value_241\", \"field_4\": \"value_120\"}"
+    },
+    {
+      "model": "gpt-4o-mini",
+      "prompt_idx": 9,
+      "ok": true,
+      "input_tokens": 23,
+      "output_tokens": 254,
+      "latency_ms": 1579.7,
+      "cost_usd": 0.00015585,
+      "output": "System system tradeoff incident market option impact team assumption pipeline reservoir pipeline assumption evidence contract output growth priority plan option schedule pressure evidence incident forecast cost forecast tradeoff trend trend tradeoff latency tradeoff quality policy input cost region cost policy budget contract priority impact option contract tradeoff schedule system quality margin schedule revenue input risk market pipeline the budget input pressure the trend policy pipeline forecast pressure growth evidence team data cost margin tradeoff risk risk pipeline service service incident forecast reservoir impact user impact notably result customer region cost trend team pressure priority signal result market contract reservoir assumption pressure trend data market option revenue signal assumption impact policy revenue margin schedule risk policy result impact result policy quality contract report priority forecast pressure option evidence impact margin pipeline assumption option risk signal."
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 0,
+      "ok": true,
+      "input_tokens": 13,
+      "output_tokens": 112,
+      "latency_ms": 2113.9,
+      "cost_usd": 0.001719,
+      "output": "Evidence user customer assumption result schedule result team risk model impact quality result schedule option impact policy priority signal risk model priority priority evidence market evidence schedule trend policy option contract data region contract team revenue market tradeoff report result user system plan policy customer region growth input region evidence reservoir the customer incident service team evidence system forecast contract user."
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 1,
+      "ok": true,
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 1184.9,
+      "cost_usd": 0.00042,
+      "output": "{\"field_0\": \"value_938\", \"field_1\": \"value_967\", \"field_2\": \"value_483\", \"field_3\": \"value_740\"}"
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 2,
+      "ok": true,
+      "input_tokens": 4,
+      "output_tokens": 78,
+      "latency_ms": 1721.1,
+      "cost_usd": 0.001182,
+      "output": "Incident customer incident latency incident plan contract result evidence team market budget market policy report region cost signal team plan service customer contract impact contract signal input output quality trend incident impact incident input risk customer impact risk service policy report reservoir team."
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 3,
+      "ok": true,
+      "input_tokens": 17,
+      "output_tokens": 246,
+      "latency_ms": 2571.0,
+      "cost_usd": 0.003741,
+      "output": "Forecast customer budget the model quality incident cost output pipeline data pressure trend customer margin market quality margin schedule signal input system cost output system result data the model output signal result trend evidence schedule cost trend result growth tradeoff pressure market system cost pipeline reservoir input margin assumption pressure report quality margin data model growth contract budget data pipeline signal customer customer service incident cost region priority risk forecast pipeline latency policy revenue contract option priority pipeline schedule service data contract signal evidence pipeline service option contract quality the schedule system quality forecast schedule contract user team tradeoff pipeline plan result option output service forecast reservoir option market latency evidence pipeline incident option system schedule schedule evidence reservoir risk growth quality plan input service service market assumption user tradeoff tradeoff."
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 4,
+      "ok": true,
+      "input_tokens": 34,
+      "output_tokens": 2,
+      "latency_ms": 1152.0,
+      "cost_usd": 0.000132,
+      "output": "positive"
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 5,
+      "ok": true,
+      "input_tokens": 14,
+      "output_tokens": 208,
+      "latency_ms": 3321.3,
+      "cost_usd": 0.003162,
+      "output": "Data service margin the revenue market data model market tradeoff region the trend model report risk contract tradeoff cost customer input tradeoff plan latency budget incident system pressure data reservoir latency quality incident policy schedule signal signal pipeline contract plan schedule pipeline signal contract latency system impact risk service pressure contract priority impact policy impact latency plan model revenue revenue the impact policy team evidence team pressure the user service forecast model schedule assumption tradeoff forecast pipeline policy market latency team market tradeoff market customer quality the impact trend service data incident market system output customer evidence revenue data signal user priority result signal plan pressure budget priority evidence evidence reservoir pressure the system."
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 6,
+      "ok": true,
+      "input_tokens": 40,
+      "output_tokens": 82,
+      "latency_ms": 2421.1,
+      "cost_usd": 0.00135,
+      "output": "Region region market schedule cost budget reservoir input contract pipeline impact tradeoff tradeoff incident model option system reservoir quality input incident tradeoff signal contract input contract team data forecast quality schedule signal assumption reservoir report incident input quality trend system trend report margin."
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 7,
+      "ok": true,
+      "input_tokens": 11,
+      "output_tokens": 243,
+      "latency_ms": 3392.4,
+      "cost_usd": 0.003678,
+      "output": "Growth customer evidence customer revenue risk policy budget the impact evidence trend forecast schedule contract growth priority pressure option output region pressure tradeoff model signal signal report the the output revenue priority margin output team plan user contract cost margin incident reservoir pipeline cost input margin customer growth contract service input region model option priority the reservoir signal market risk report model revenue reservoir reservoir market latency system latency pressure plan service policy option market input plan latency latency tradeoff pressure model cost region customer system trend schedule reservoir risk data user data evidence policy tradeoff cost team revenue data pipeline latency budget assumption pipeline system data margin pressure budget service policy forecast latency region budget team assumption quality plan market service budget latency forecast the quality trend priority schedule revenue incident region."
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 8,
+      "ok": true,
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 2182.7,
+      "cost_usd": 0.000555,
+      "output": "{\"field_0\": \"value_935\", \"field_1\": \"value_966\", \"field_2\": \"value_483\", \"field_3\": \"value_241\", \"field_4\": \"value_120\"}"
+    },
+    {
+      "model": "claude-sonnet",
+      "prompt_idx": 9,
+      "ok": true,
+      "input_tokens": 23,
+      "output_tokens": 254,
+      "latency_ms": 3358.5,
+      "cost_usd": 0.003879,
+      "output": "System system tradeoff incident market option impact team assumption pipeline reservoir pipeline assumption evidence contract output growth priority plan option schedule pressure evidence incident forecast cost forecast tradeoff trend trend tradeoff latency tradeoff quality policy input cost region cost policy budget contract priority impact option contract tradeoff schedule system quality margin schedule revenue input risk market pipeline the budget input pressure the trend policy pipeline forecast pressure growth evidence team data cost margin tradeoff risk risk pipeline service service incident forecast reservoir impact user impact growth result customer region cost trend team pressure priority signal result market contract reservoir assumption pressure trend data market option revenue signal assumption impact policy revenue margin schedule risk policy result impact result policy quality contract report priority forecast pressure option evidence impact margin pipeline assumption option risk signal."
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 0,
+      "ok": true,
+      "input_tokens": 13,
+      "output_tokens": 112,
+      "latency_ms": 793.9,
+      "cost_usd": 0.000573,
+      "output": "Evidence user customer assumption result schedule result team risk model impact quality result schedule option impact policy priority signal risk model priority priority evidence market evidence schedule trend policy option contract data region contract team revenue market tradeoff report result user system plan policy customer region growth input region evidence reservoir the customer incident service team evidence system forecast contract user."
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 1,
+      "ok": true,
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 649.6,
+      "cost_usd": 0.00014,
+      "output": "{\"field_0\": \"value_938\", \"field_1\": \"value_967\", \"field_2\": \"value_483\", \"field_3\": \"value_740\"}"
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 2,
+      "ok": true,
+      "input_tokens": 4,
+      "output_tokens": 78,
+      "latency_ms": 1057.9,
+      "cost_usd": 0.000394,
+      "output": "Incident customer incident latency incident plan contract result evidence team market budget market policy report region cost signal team plan service customer contract impact contract signal input output quality trend incident impact incident input risk customer impact risk service policy report reservoir team."
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 3,
+      "ok": true,
+      "input_tokens": 17,
+      "output_tokens": 246,
+      "latency_ms": 1016.1,
+      "cost_usd": 0.001247,
+      "output": "Forecast customer budget the model quality incident cost output pipeline data pressure trend customer margin market quality margin schedule signal input system cost output system result data the model output signal result trend evidence schedule cost trend result growth tradeoff pressure market system cost pipeline reservoir input margin assumption pressure report quality margin data model growth contract budget data pipeline signal customer customer service incident cost region priority risk forecast pipeline latency policy revenue contract option priority pipeline schedule service data contract signal evidence pipeline service option contract quality the schedule system quality forecast schedule contract user team tradeoff pipeline plan result option output service forecast reservoir option market latency evidence pipeline incident option system schedule schedule evidence reservoir risk growth quality plan input service service market assumption user tradeoff tradeoff."
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 4,
+      "ok": true,
+      "input_tokens": 34,
+      "output_tokens": 2,
+      "latency_ms": 581.3,
+      "cost_usd": 4.4e-05,
+      "output": "positive"
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 5,
+      "ok": true,
+      "input_tokens": 14,
+      "output_tokens": 208,
+      "latency_ms": 1075.7,
+      "cost_usd": 0.001054,
+      "output": "Data service margin the revenue market data model market tradeoff region the trend model report risk contract tradeoff cost customer input tradeoff plan latency budget incident system pressure data reservoir latency quality incident policy schedule signal signal pipeline contract plan schedule pipeline signal contract latency system impact risk service pressure contract priority impact policy impact latency plan model revenue revenue the impact policy team evidence team pressure the user service forecast model schedule assumption tradeoff forecast pipeline policy market latency team market tradeoff market customer quality the impact trend service data incident market system output customer evidence revenue data signal user priority result signal plan pressure budget priority evidence evidence reservoir pressure the system."
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 6,
+      "ok": true,
+      "input_tokens": 40,
+      "output_tokens": 82,
+      "latency_ms": 596.0,
+      "cost_usd": 0.00045,
+      "output": "Region region market schedule cost budget reservoir input contract pipeline impact tradeoff tradeoff incident model option system reservoir quality input incident tradeoff signal contract input contract team data forecast quality schedule signal assumption reservoir report incident input quality trend system trend report margin."
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 7,
+      "ok": true,
+      "input_tokens": 11,
+      "output_tokens": 243,
+      "latency_ms": 1496.5,
+      "cost_usd": 0.001226,
+      "output": "Growth customer evidence customer revenue risk policy budget the impact evidence trend forecast schedule contract growth priority pressure option output region pressure tradeoff model signal signal report the the output revenue priority margin output team plan user contract cost margin incident reservoir pipeline cost input margin customer growth contract service input region model option priority the reservoir signal market risk report model revenue reservoir reservoir market latency system latency pressure plan service policy option market input plan latency latency tradeoff pressure model cost region customer system trend schedule reservoir risk data user data evidence policy tradeoff cost team revenue data pipeline latency budget assumption pipeline system data margin pressure budget service policy forecast latency region budget team assumption quality plan market service budget latency forecast the quality trend priority schedule revenue incident region."
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 8,
+      "ok": true,
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 888.2,
+      "cost_usd": 0.000185,
+      "output": "{\"field_0\": \"value_935\", \"field_1\": \"value_966\", \"field_2\": \"value_483\", \"field_3\": \"value_241\", \"field_4\": \"value_120\"}"
+    },
+    {
+      "model": "claude-haiku",
+      "prompt_idx": 9,
+      "ok": true,
+      "input_tokens": 23,
+      "output_tokens": 254,
+      "latency_ms": 1509.6,
+      "cost_usd": 0.001293,
+      "output": "System system tradeoff incident market option impact team assumption pipeline reservoir pipeline assumption evidence contract output growth priority plan option schedule pressure evidence incident forecast cost forecast tradeoff trend trend tradeoff latency tradeoff quality policy input cost region cost policy budget contract priority impact option contract tradeoff schedule system quality margin schedule revenue input risk market pipeline the budget input pressure the trend policy pipeline forecast pressure growth evidence team data cost margin tradeoff risk risk pipeline service service incident forecast reservoir impact user impact growth result customer region cost trend team pressure priority signal result market contract reservoir assumption pressure trend data market option revenue signal assumption impact policy revenue margin schedule risk policy result impact result policy quality contract report priority forecast pressure option evidence impact margin pipeline assumption option risk signal."
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 0,
+      "ok": true,
+      "input_tokens": 13,
+      "output_tokens": 112,
+      "latency_ms": 3173.6,
+      "cost_usd": 0.0,
+      "output": "Evidence user customer assumption result schedule result team risk model impact quality result schedule option impact policy priority signal risk model priority priority evidence market evidence schedule trend policy option contract data region contract team revenue market tradeoff report result user system plan policy customer region growth input region evidence reservoir the customer incident service team evidence system forecast contract user."
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 1,
+      "ok": true,
+      "input_tokens": 20,
+      "output_tokens": 24,
+      "latency_ms": 2090.1,
+      "cost_usd": 0.0,
+      "output": "{\"field_0\": \"value_938\", \"field_1\": \"value_967\", \"field_2\": \"value_483\", \"field_3\": \"value_740\"}"
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 2,
+      "ok": true,
+      "input_tokens": 4,
+      "output_tokens": 78,
+      "latency_ms": 2409.2,
+      "cost_usd": 0.0,
+      "output": "Incident customer incident latency incident plan contract result evidence team market budget market policy report region cost signal team plan service customer contract impact contract signal input output quality trend incident impact incident input risk customer impact risk service policy report reservoir team."
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 3,
+      "ok": true,
+      "input_tokens": 17,
+      "output_tokens": 270,
+      "latency_ms": 3109.0,
+      "cost_usd": 0.0,
+      "output": "Forecast customer budget the model quality incident cost output pipeline data pressure trend customer margin market quality margin schedule signal input system cost output system result data the model output signal result. Several it perhaps considerations it somewhat things aspects several generally factors somewhat typically matters basically stuff somewhat stuff generally generally it typically generally basically basically generally broadly various considerations it basically elements generally stuff somewhat matters basically factors considerations things overall somewhat elements things depends overall perhaps stuff considerations aspects perhaps typically considerations typically overall generally several stuff basically matters elements broadly perhaps things considerations matters matters typically broadly several overall certain considerations overall several perhaps typically various basically somewhat broadly it considerations things various stuff it several factors several several generally factors things elements considerations basically stuff perhaps."
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 4,
+      "ok": true,
+      "input_tokens": 34,
+      "output_tokens": 1,
+      "latency_ms": 2006.1,
+      "cost_usd": 0.0,
+      "output": "billing"
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 5,
+      "ok": true,
+      "input_tokens": 14,
+      "output_tokens": 230,
+      "latency_ms": 2523.3,
+      "cost_usd": 0.0,
+      "output": "Data service margin the revenue market data model market tradeoff region the trend model report risk contract tradeoff cost customer input tradeoff plan latency budget incident system pressure. Considerations typically elements somewhat perhaps several considerations overall factors aspects generally depends things matters overall several several aspects certain elements factors overall typically factors various typically basically typically things factors aspects several perhaps various perhaps it generally elements basically overall matters various basically factors matters perhaps aspects generally various stuff depends considerations factors overall broadly it broadly generally various aspects certain matters typically factors things stuff aspects it generally stuff perhaps depends perhaps aspects basically somewhat somewhat stuff broadly somewhat depends factors considerations overall overall generally."
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 6,
+      "ok": true,
+      "input_tokens": 40,
+      "output_tokens": 82,
+      "latency_ms": 1691.3,
+      "cost_usd": 0.0,
+      "output": "Region region market schedule cost budget reservoir input contract pipeline impact tradeoff tradeoff incident model option system reservoir quality input incident tradeoff signal contract input contract team data forecast quality schedule signal assumption reservoir report incident input quality trend system trend report margin."
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 7,
+      "ok": true,
+      "input_tokens": 11,
+      "output_tokens": 264,
+      "latency_ms": 4108.5,
+      "cost_usd": 0.0,
+      "output": "Growth customer evidence customer revenue risk policy budget the impact evidence trend forecast schedule contract growth priority pressure option output region pressure tradeoff model signal signal report the the output revenue priority margin. Depends typically considerations matters matters certain matters perhaps generally things stuff elements things perhaps stuff perhaps certain matters certain matters broadly basically elements aspects various typically typically certain generally typically certain certain factors factors it perhaps aspects depends overall it elements perhaps considerations overall broadly considerations depends basically depends basically basically perhaps aspects aspects it depends certain matters generally generally basically matters broadly things depends perhaps it it typically it broadly basically various stuff typically factors stuff factors generally certain considerations it aspects somewhat generally various matters somewhat stuff perhaps matters depends factors basically it typically perhaps typically it it."
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 8,
+      "ok": true,
+      "input_tokens": 35,
+      "output_tokens": 30,
+      "latency_ms": 1402.5,
+      "cost_usd": 0.0,
+      "output": "{\"field_0\": \"value_935\", \"field_1\": \"value_966\", \"field_2\": \"value_483\", \"field_3\": \"value_241\", \"field_4\": \"value_120\"}"
+    },
+    {
+      "model": "llama-local",
+      "prompt_idx": 9,
+      "ok": true,
+      "input_tokens": 23,
+      "output_tokens": 269,
+      "latency_ms": 3080.3,
+      "cost_usd": 0.0,
+      "output": "System system tradeoff incident market option impact team assumption pipeline reservoir pipeline assumption evidence contract output growth priority plan option schedule pressure evidence incident forecast cost forecast tradeoff trend trend tradeoff latency tradeoff. Generally basically depends it it broadly aspects aspects typically aspects broadly several it factors broadly basically considerations typically matters it matters factors aspects elements aspects stuff certain factors depends depends somewhat aspects matters aspects broadly basically depends broadly generally various stuff basically perhaps generally broadly certain aspects typically matters somewhat typically several it basically stuff elements certain perhaps broadly somewhat broadly elements matters factors several elements stuff matters aspects typically certain somewhat it aspects elements several aspects perhaps depends depends matters stuff depends elements basically various typically various basically certain basically it aspects it depends various certain things things generally things."
+    }
+  ]
+}

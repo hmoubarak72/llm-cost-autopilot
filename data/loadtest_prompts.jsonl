@@ -1,0 +1,477 @@
+{"prompt": "Extract the company name, amount and date as JSON from: 'Acme Corp was invoiced $12,400 on 2026-03-14.'", "tier": 1}
+{"prompt": "Extract the company name, amount and date as JSON from: 'Blue Mesa LLC was invoiced $980 on 2026-07-02.'", "tier": 1}
+{"prompt": "Extract the company name, amount and date as JSON from: 'Harbor Health was invoiced $55,000 on 2026-01-30.'", "tier": 1}
+{"prompt": "Extract the company name, amount and date as JSON from: 'Qasr Energy was invoiced $3,215.75 on 2026-09-19.'", "tier": 1}
+{"prompt": "Extract the company name, amount and date as JSON from: 'Northwind was invoiced $4,812.50 on 2026-10-03.'", "tier": 1}
+{"prompt": "Extract the company name, amount and date as JSON from: 'Delta Grid was invoiced $71,900 on 2026-05-21.'", "tier": 1}
+{"prompt": "What is the amount in this sentence: 'Acme Corp paid $12,400 on 2026-03-14'?", "tier": 1}
+{"prompt": "What is the amount in this sentence: 'Blue Mesa LLC paid $980 on 2026-07-02'?", "tier": 1}
+{"prompt": "What is the amount in this sentence: 'Harbor Health paid $55,000 on 2026-01-30'?", "tier": 1}
+{"prompt": "What is the amount in this sentence: 'Qasr Energy paid $3,215.75 on 2026-09-19'?", "tier": 1}
+{"prompt": "What is the amount in this sentence: 'Northwind paid $4,812.50 on 2026-10-03'?", "tier": 1}
+{"prompt": "What is the amount in this sentence: 'Delta Grid paid $71,900 on 2026-05-21'?", "tier": 1}
+{"prompt": "Reformat the date 2026-03-14 as Month Day, Year.", "tier": 1}
+{"prompt": "Reformat the date 2026-07-02 as Month Day, Year.", "tier": 1}
+{"prompt": "Reformat the date 2026-01-30 as Month Day, Year.", "tier": 1}
+{"prompt": "Reformat the date 2026-09-19 as Month Day, Year.", "tier": 1}
+{"prompt": "Reformat the date 2026-10-03 as Month Day, Year.", "tier": 1}
+{"prompt": "Reformat the date 2026-05-21 as Month Day, Year.", "tier": 1}
+{"prompt": "Pull out the domain name from: 'contact us at billing@acme.com'.", "tier": 1}
+{"prompt": "Pull out the domain name from: 'contact us at billing@bluemesa.io'.", "tier": 1}
+{"prompt": "Pull out the domain name from: 'contact us at billing@harborhealth.org'.", "tier": 1}
+{"prompt": "Pull out the domain name from: 'contact us at billing@qasr-energy.ly'.", "tier": 1}
+{"prompt": "Pull out the domain name from: 'contact us at billing@northwind.io'.", "tier": 1}
+{"prompt": "Pull out the domain name from: 'contact us at billing@deltagrid.com'.", "tier": 1}
+{"prompt": "Convert to uppercase: Acme Corp quarterly update", "tier": 1}
+{"prompt": "Convert to uppercase: Blue Mesa LLC quarterly update", "tier": 1}
+{"prompt": "Convert to uppercase: Harbor Health quarterly update", "tier": 1}
+{"prompt": "Convert to uppercase: Qasr Energy quarterly update", "tier": 1}
+{"prompt": "Convert to uppercase: Northwind quarterly update", "tier": 1}
+{"prompt": "Convert to uppercase: Delta Grid quarterly update", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a solar farm permit", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a cloud cost overrun", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a customer churn spike", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a seismic survey", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a hospital scheduling system", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a supply-chain delay", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a CO2 injection pilot", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a fintech onboarding flow", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a university course redesign", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a mobile app outage", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a hiring plan for a data team", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a water utility tariff change", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a warehouse robot rollout", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: a drilling program in a frontier basin", "tier": 1}
+{"prompt": "List the words in this phrase in alphabetical order: an LLM support chatbot", "tier": 1}
+{"prompt": "Return only the number from: 'Invoice total $12,400'.", "tier": 1}
+{"prompt": "Return only the number from: 'Invoice total $980'.", "tier": 1}
+{"prompt": "Return only the number from: 'Invoice total $55,000'.", "tier": 1}
+{"prompt": "Return only the number from: 'Invoice total $3,215.75'.", "tier": 1}
+{"prompt": "Return only the number from: 'Invoice total $4,812.50'.", "tier": 1}
+{"prompt": "Return only the number from: 'Invoice total $71,900'.", "tier": 1}
+{"prompt": "Translate 'Acme Corp is closed today' into French.", "tier": 1}
+{"prompt": "Translate 'Blue Mesa LLC is closed today' into French.", "tier": 1}
+{"prompt": "Translate 'Harbor Health is closed today' into French.", "tier": 1}
+{"prompt": "Translate 'Qasr Energy is closed today' into French.", "tier": 1}
+{"prompt": "Translate 'Northwind is closed today' into French.", "tier": 1}
+{"prompt": "Translate 'Delta Grid is closed today' into French.", "tier": 1}
+{"prompt": "Summarize the typical risks of a solar farm permit in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a cloud cost overrun in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a customer churn spike in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a seismic survey in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a hospital scheduling system in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a supply-chain delay in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a CO2 injection pilot in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a fintech onboarding flow in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a university course redesign in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a mobile app outage in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a hiring plan for a data team in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a water utility tariff change in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a warehouse robot rollout in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of a drilling program in a frontier basin in four bullets.", "tier": 2}
+{"prompt": "Summarize the typical risks of an LLM support chatbot in four bullets.", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a solar farm permit.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a cloud cost overrun.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a customer churn spike.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a seismic survey.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a hospital scheduling system.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a supply-chain delay.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a CO2 injection pilot.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a fintech onboarding flow.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a university course redesign.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a mobile app outage.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a hiring plan for a data team.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a water utility tariff change.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a warehouse robot rollout.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for a drilling program in a frontier basin.'", "tier": 2}
+{"prompt": "Classify this note as risk, decision, or update: 'We approved the budget for an LLM support chatbot.'", "tier": 2}
+{"prompt": "Explain a solar farm permit to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a cloud cost overrun to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a customer churn spike to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a seismic survey to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a hospital scheduling system to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a supply-chain delay to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a CO2 injection pilot to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a fintech onboarding flow to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a university course redesign to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a mobile app outage to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a hiring plan for a data team to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a water utility tariff change to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a warehouse robot rollout to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain a drilling program in a frontier basin to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Explain an LLM support chatbot to a new team member in one paragraph.", "tier": 2}
+{"prompt": "Compare two common approaches to a solar farm permit in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a cloud cost overrun in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a customer churn spike in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a seismic survey in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a hospital scheduling system in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a supply-chain delay in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a CO2 injection pilot in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a fintech onboarding flow in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a university course redesign in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a mobile app outage in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a hiring plan for a data team in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a water utility tariff change in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a warehouse robot rollout in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to a drilling program in a frontier basin in a short table.", "tier": 2}
+{"prompt": "Compare two common approaches to an LLM support chatbot in a short table.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a solar farm permit and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a cloud cost overrun and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a customer churn spike and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a seismic survey and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a hospital scheduling system and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a supply-chain delay and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a CO2 injection pilot and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a fintech onboarding flow and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a university course redesign and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a mobile app outage and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a hiring plan for a data team and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a water utility tariff change and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a warehouse robot rollout and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in a drilling program in a frontier basin and what each needs.", "tier": 2}
+{"prompt": "Outline the stakeholders involved in an LLM support chatbot and what each needs.", "tier": 2}
+{"prompt": "Draft a short status update email about a solar farm permit for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a solar farm permit for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a solar farm permit for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a solar farm permit for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a solar farm permit for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a solar farm permit for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a cloud cost overrun for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a cloud cost overrun for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a cloud cost overrun for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a cloud cost overrun for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a cloud cost overrun for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a cloud cost overrun for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a customer churn spike for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a customer churn spike for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a customer churn spike for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a customer churn spike for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a customer churn spike for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a customer churn spike for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a seismic survey for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a seismic survey for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a seismic survey for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a seismic survey for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a seismic survey for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a seismic survey for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a hospital scheduling system for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a hospital scheduling system for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a hospital scheduling system for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a hospital scheduling system for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a hospital scheduling system for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a hospital scheduling system for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a supply-chain delay for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a supply-chain delay for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a supply-chain delay for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a supply-chain delay for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a supply-chain delay for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a supply-chain delay for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a CO2 injection pilot for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a CO2 injection pilot for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a CO2 injection pilot for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a CO2 injection pilot for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a CO2 injection pilot for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a CO2 injection pilot for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a fintech onboarding flow for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a fintech onboarding flow for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a fintech onboarding flow for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a fintech onboarding flow for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a fintech onboarding flow for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a fintech onboarding flow for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a university course redesign for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a university course redesign for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a university course redesign for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a university course redesign for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a university course redesign for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a university course redesign for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a mobile app outage for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a mobile app outage for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a mobile app outage for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a mobile app outage for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a mobile app outage for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a mobile app outage for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a hiring plan for a data team for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a hiring plan for a data team for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a hiring plan for a data team for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a hiring plan for a data team for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a hiring plan for a data team for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a hiring plan for a data team for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a water utility tariff change for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a water utility tariff change for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a water utility tariff change for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a water utility tariff change for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a water utility tariff change for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a water utility tariff change for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a warehouse robot rollout for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a warehouse robot rollout for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a warehouse robot rollout for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a warehouse robot rollout for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a warehouse robot rollout for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a warehouse robot rollout for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about a drilling program in a frontier basin for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about a drilling program in a frontier basin for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about a drilling program in a frontier basin for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about a drilling program in a frontier basin for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about a drilling program in a frontier basin for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about a drilling program in a frontier basin for Delta Grid.", "tier": 2}
+{"prompt": "Draft a short status update email about an LLM support chatbot for Acme Corp.", "tier": 2}
+{"prompt": "Draft a short status update email about an LLM support chatbot for Blue Mesa LLC.", "tier": 2}
+{"prompt": "Draft a short status update email about an LLM support chatbot for Harbor Health.", "tier": 2}
+{"prompt": "Draft a short status update email about an LLM support chatbot for Qasr Energy.", "tier": 2}
+{"prompt": "Draft a short status update email about an LLM support chatbot for Northwind.", "tier": 2}
+{"prompt": "Draft a short status update email about an LLM support chatbot for Delta Grid.", "tier": 2}
+{"prompt": "Categorize these concerns about a solar farm permit as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a cloud cost overrun as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a customer churn spike as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a seismic survey as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a hospital scheduling system as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a supply-chain delay as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a CO2 injection pilot as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a fintech onboarding flow as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a university course redesign as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a mobile app outage as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a hiring plan for a data team as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a water utility tariff change as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a warehouse robot rollout as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about a drilling program in a frontier basin as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Categorize these concerns about an LLM support chatbot as technical, financial or regulatory: delays, cost, permits.", "tier": 2}
+{"prompt": "Analyze the tradeoffs in a solar farm permit for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a solar farm permit for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a solar farm permit for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a solar farm permit for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a solar farm permit for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a solar farm permit for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a cloud cost overrun for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a cloud cost overrun for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a cloud cost overrun for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a cloud cost overrun for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a cloud cost overrun for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a cloud cost overrun for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a customer churn spike for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a customer churn spike for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a customer churn spike for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a customer churn spike for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a customer churn spike for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a customer churn spike for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a seismic survey for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a seismic survey for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a seismic survey for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a seismic survey for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a seismic survey for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a seismic survey for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hospital scheduling system for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hospital scheduling system for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hospital scheduling system for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hospital scheduling system for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hospital scheduling system for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hospital scheduling system for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a supply-chain delay for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a supply-chain delay for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a supply-chain delay for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a supply-chain delay for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a supply-chain delay for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a supply-chain delay for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a CO2 injection pilot for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a CO2 injection pilot for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a CO2 injection pilot for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a CO2 injection pilot for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a CO2 injection pilot for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a CO2 injection pilot for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a fintech onboarding flow for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a fintech onboarding flow for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a fintech onboarding flow for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a fintech onboarding flow for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a fintech onboarding flow for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a fintech onboarding flow for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a university course redesign for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a university course redesign for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a university course redesign for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a university course redesign for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a university course redesign for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a university course redesign for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a mobile app outage for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a mobile app outage for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a mobile app outage for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a mobile app outage for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a mobile app outage for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a mobile app outage for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hiring plan for a data team for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hiring plan for a data team for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hiring plan for a data team for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hiring plan for a data team for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hiring plan for a data team for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a hiring plan for a data team for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a water utility tariff change for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a water utility tariff change for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a water utility tariff change for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a water utility tariff change for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a water utility tariff change for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a water utility tariff change for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a warehouse robot rollout for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a warehouse robot rollout for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a warehouse robot rollout for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a warehouse robot rollout for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a warehouse robot rollout for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a warehouse robot rollout for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a drilling program in a frontier basin for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a drilling program in a frontier basin for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a drilling program in a frontier basin for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a drilling program in a frontier basin for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a drilling program in a frontier basin for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in a drilling program in a frontier basin for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in an LLM support chatbot for Acme Corp and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in an LLM support chatbot for Blue Mesa LLC and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in an LLM support chatbot for Harbor Health and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in an LLM support chatbot for Qasr Energy and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in an LLM support chatbot for Northwind and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Analyze the tradeoffs in an LLM support chatbot for Delta Grid and recommend a plan with risks and mitigations.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a solar farm permit, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a cloud cost overrun, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a customer churn spike, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a seismic survey, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a hospital scheduling system, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a supply-chain delay, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a CO2 injection pilot, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a fintech onboarding flow, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a university course redesign, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a mobile app outage, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a hiring plan for a data team, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a water utility tariff change, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a warehouse robot rollout, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for a drilling program in a frontier basin, justifying each step.", "tier": 3}
+{"prompt": "Design a step-by-step evaluation strategy for an LLM support chatbot, justifying each step.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a solar farm permit.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a cloud cost overrun.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a customer churn spike.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a seismic survey.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a hospital scheduling system.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a supply-chain delay.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a CO2 injection pilot.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a fintech onboarding flow.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a university course redesign.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a mobile app outage.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a hiring plan for a data team.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a water utility tariff change.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a warehouse robot rollout.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on a drilling program in a frontier basin.", "tier": 3}
+{"prompt": "Reason step by step about the second-order effects of a 30% budget cut on an LLM support chatbot.", "tier": 3}
+{"prompt": "Critique this plan for a solar farm permit: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a cloud cost overrun: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a customer churn spike: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a seismic survey: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a hospital scheduling system: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a supply-chain delay: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a CO2 injection pilot: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a fintech onboarding flow: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a university course redesign: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a mobile app outage: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a hiring plan for a data team: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a water utility tariff change: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a warehouse robot rollout: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for a drilling program in a frontier basin: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Critique this plan for an LLM support chatbot: 'move fast, fix later'. Steelman it, then evaluate it.", "tier": 3}
+{"prompt": "Write a short story set during a solar farm permit with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a cloud cost overrun with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a customer churn spike with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a seismic survey with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a hospital scheduling system with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a supply-chain delay with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a CO2 injection pilot with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a fintech onboarding flow with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a university course redesign with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a mobile app outage with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a hiring plan for a data team with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a water utility tariff change with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a warehouse robot rollout with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during a drilling program in a frontier basin with a surprising ending.", "tier": 3}
+{"prompt": "Write a short story set during an LLM support chatbot with a surprising ending.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a solar farm permit over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a solar farm permit over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a solar farm permit over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a solar farm permit over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a solar farm permit over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a solar farm permit over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a cloud cost overrun over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a cloud cost overrun over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a cloud cost overrun over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a cloud cost overrun over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a cloud cost overrun over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a cloud cost overrun over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a customer churn spike over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a customer churn spike over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a customer churn spike over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a customer churn spike over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a customer churn spike over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a customer churn spike over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a seismic survey over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a seismic survey over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a seismic survey over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a seismic survey over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a seismic survey over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a seismic survey over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hospital scheduling system over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hospital scheduling system over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hospital scheduling system over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hospital scheduling system over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hospital scheduling system over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hospital scheduling system over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a supply-chain delay over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a supply-chain delay over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a supply-chain delay over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a supply-chain delay over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a supply-chain delay over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a supply-chain delay over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a CO2 injection pilot over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a CO2 injection pilot over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a CO2 injection pilot over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a CO2 injection pilot over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a CO2 injection pilot over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a CO2 injection pilot over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a fintech onboarding flow over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a fintech onboarding flow over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a fintech onboarding flow over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a fintech onboarding flow over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a fintech onboarding flow over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a fintech onboarding flow over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a university course redesign over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a university course redesign over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a university course redesign over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a university course redesign over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a university course redesign over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a university course redesign over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a mobile app outage over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a mobile app outage over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a mobile app outage over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a mobile app outage over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a mobile app outage over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a mobile app outage over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hiring plan for a data team over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hiring plan for a data team over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hiring plan for a data team over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hiring plan for a data team over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hiring plan for a data team over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a hiring plan for a data team over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a water utility tariff change over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a water utility tariff change over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a water utility tariff change over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a water utility tariff change over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a water utility tariff change over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a water utility tariff change over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a warehouse robot rollout over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a warehouse robot rollout over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a warehouse robot rollout over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a warehouse robot rollout over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a warehouse robot rollout over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a warehouse robot rollout over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a drilling program in a frontier basin over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a drilling program in a frontier basin over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a drilling program in a frontier basin over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a drilling program in a frontier basin over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a drilling program in a frontier basin over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with a drilling program in a frontier basin over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with an LLM support chatbot over 18 months and how Acme Corp should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with an LLM support chatbot over 18 months and how Blue Mesa LLC should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with an LLM support chatbot over 18 months and how Harbor Health should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with an LLM support chatbot over 18 months and how Qasr Energy should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with an LLM support chatbot over 18 months and how Northwind should prepare. State assumptions.", "tier": 3}
+{"prompt": "Forecast what could go wrong with an LLM support chatbot over 18 months and how Delta Grid should prepare. State assumptions.", "tier": 3}
